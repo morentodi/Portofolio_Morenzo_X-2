@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Morenzo Timothy Lawuren Butar Butar</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:Arial, sans-serif;
+      background:#d7dbe0;
+      color:#4d4f52;
+      line-height:1.6;
+    }
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    section{
+      margin-bottom:80px;
+    }
+
+    h2{
+      color:#4d4f52;
+      font-size:2rem;
+      margin-bottom:24px;
+      border-bottom:2px solid #8c9197;
+      padding-bottom:10px;
+    }
+
+    p{
+      color:#5d6166;
+    }
+
+    /* HERO */
+
+    .hero{
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:#cfd4d9;
+      padding:40px 20px;
+    }
+
+    .hero-content{
+      max-width:800px;
+    }
+
+    .hero-image{
+      width:220px;
+      height:220px;
+      border-radius:50%;
+      object-fit:cover;
+      border:5px solid #7a8087;
+      margin-bottom:30px;
+      box-shadow:0 0 20px rgba(0,0,0,0.15);
+    }
+
+    .hero h1{
+      font-size:4rem;
+      line-height:1.2;
+      color:#4d4f52;
+      margin-bottom:18px;
+    }
+
+    .hero span{
+      display:block;
+    }
+
+    .hero p{
+      font-size:1.1rem;
+      max-width:650px;
+      margin:auto;
+      color:#5d6166;
+    }
+
+    /* CARD */
+
+    .card{
+      background:#e2e5e9;
+      border-radius:20px;
+      padding:28px;
+      border:1px solid #b5bcc3;
+    }
+
+    /* GRID */
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:20px;
+    }
+
+    /* SKILL */
+
+    .skill{
+      background:#e2e5e9;
+      border-radius:16px;
+      padding:18px;
+      border:1px solid #b5bcc3;
+      transition:0.3s;
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+
+      min-height:120px;
+    }
+
+    .skill:hover{
+      transform:translateY(-5px);
+    }
+
+    /* TIMELINE */
+
+    .timeline{
+      display:grid;
+      gap:20px;
+    }
+
+    .timeline-item{
+      background:#e2e5e9;
+      padding:24px;
+      border-radius:18px;
+      border-left:5px solid #7a8087;
+    }
+
+    .timeline-item h3{
+      color:#4d4f52;
+      margin-bottom:8px;
+    }
+
+    /* EDUCATION */
+
+    .education-item{
+      display:flex;
+      align-items:center;
+      gap:24px;
+    }
+
+    /* LOGO */
+
+    .school-logo{
+      width:90px;
+      height:90px;
+      min-width:90px;
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .school-logo img{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+    }
+
+    /* ACHIEVEMENTS */
+
+    .achievement{
+      background:#e2e5e9;
+      border-radius:16px;
+      padding:20px;
+      border:1px solid #b5bcc3;
+    }
+
+    .achievement h3{
+      color:#4d4f52;
+      margin-bottom:10px;
+    }
+
+    /* CONTACT */
+
+    .contact-list{
+      display:grid;
+      gap:18px;
+    }
+
+    .contact-item{
+      background:#e2e5e9;
+      padding:18px;
+      border-radius:14px;
+      border:1px solid #b5bcc3;
+    }
+
+    ul{
+      padding-left:20px;
+      color:#5d6166;
+    }
+
+    li{
+      margin-bottom:12px;
+    }
+
+    footer{
+      text-align:center;
+      padding:24px;
+      border-top:1px solid #b5bcc3;
+      color:#5d6166;
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:2.6rem;
+      }
+
+      .hero-image{
+        width:170px;
+        height:170px;
+      }
+
+      .education-item{
+        flex-direction:column;
+        text-align:center;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <!-- FOTO PROFILE -->
+      <img
+        src="./gradumoren.jpg"
+        alt="Profile"
+        class="hero-image"
+      >
+
+      <h1>
+        Morenzo Timothy
+        <span>Lawuren Butar Butar</span>
+      </h1>
+
+      <p>
+        Siswa aktif dengan pengalaman organisasi yang kuat, kemampuan berpikir kritis, 
+        serta rekam jejak prestasi dalam berbagai kompetisi akademik maupun non-akademik.
+      </p>
+
+    </div>
+
+  </section>
+
+  <div class="container">
+
+    <!-- CONTACT -->
+
+    <section>
+
+      <h2>Contact Information</h2>
+
+      <div class="contact-list">
+
+        <div class="contact-item">
+          📞 +62 858-8178-5303
+        </div>
+
+        <div class="contact-item">
+          ✉&nbsp;&nbsp;morenzobutarbutar@gmail.com
+        </div>
+
+        <div class="contact-item">
+          📍 Taman Surya 3 Blok K5 No.29,
+          Pegadungan, Jakarta Barat, Indonesia
+        </div>
+
+        <div class="contact-item">
+          🌍 Jakarta, 7 Mei 2010
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section>
+
+      <h2>About Me</h2>
+
+      <div class="card">
+
+        <p>
+          Murid yang aktif, berprestasi, dan memiliki kemampuan
+          kepemimpinan yang baik. Memiliki pengalaman sebagai Ketua OSIS
+          sehingga terbiasa bekerja dalam tim dan mengambil keputusan
+          dengan tanggung jawab. Memiliki berbagai prestasi di bidang
+          akademik maupun non-akademik, yang menunjukan kedisiplinan,
+          kemampuan beradaptasi di berbagai situasi, dan selalu berusaha
+          memberikan hasil terbaik dalam setiap tugas
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+
+    <section>
+
+      <h2>Riwayat Pendidikan</h2>
+
+      <div class="timeline">
+
+        <!-- SMA -->
+
+        <div class="timeline-item education-item">
+
+          <div class="school-logo">
+
+            <img
+              src="./logowardaya.jpg"
+              alt="Logo SMA Wardaya"
+            >
+
+          </div>
+
+          <div>
+
+            <h3>SMA Wardaya</h3>
+
+            <p>Jurusan IPA</p>
+
+            <p>2025 - Sekarang</p>
+
+          </div>
+
+        </div>
+
+        <!-- SMP -->
+
+        <div class="timeline-item education-item">
+
+          <div class="school-logo">
+
+            <img
+              src="./logotunasbangsa.jpg"
+              alt="Logo SMP"
+            >
+
+          </div>
+
+          <div>
+
+            <h3>SMPK Tunas Bangsa Citra</h3>
+
+            <p>Nilai rata-rata : 94,29</p>
+
+            <p>2022 - 2025</p>
+
+          </div>
+
+        </div>
+
+        <!-- SD -->
+
+        <div class="timeline-item education-item">
+
+          <div class="school-logo">
+
+            <img
+              src="./logotunasbangsa.jpg"
+              alt="Logo SD"
+            >
+
+          </div>
+
+          <div>
+
+            <h3>SDK Tunas Bangsa Citra</h3>
+
+            <p>2016 - 2022</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- HOBBY -->
+
+    <section>
+
+      <h2>Hobby</h2>
+
+      <div class="grid">
+
+        <div class="skill">
+          Berlari
+        </div>
+
+        <div class="skill">
+          Bermain Sepak Bola
+        </div>
+
+        <div class="skill">
+          Bermain Gitar
+        </div>
+
+        <div class="skill">
+          Mendengarkan Musik
+        </div>
+
+        <div class="skill">
+          Bermain Video Game
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ORGANIZATION -->
+
+    <section>
+
+      <h2>Pengalaman Organisasi</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <h3>Ketua OSIS SMPK Tunas Bangsa Citra</h3>
+          <p>Tahun Pelajaran 2023/2024</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Tim Divisi Bela Negara OSIS</h3>
+          <p>Tahun Pelajaran 2022/2023</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+
+    <section>
+
+      <h2>Prestasi Akademik</h2>
+
+      <div class="grid">
+
+        <div class="achievement">
+          <h3>SASMO</h3>
+          <p>Bronze Medal • 2024/2025</p>
+        </div>
+
+        <div class="achievement">
+          <h3>WMI</h3>
+          <p>Silver Medal • 2023/2024</p>
+        </div>
+
+        <div class="achievement">
+          <h3>AMO</h3>
+          <p>Bronze Medal • 2023/2024</p>
+        </div>
+
+        <div class="achievement">
+          <h3>OSN-K Matematika</h3>
+          <p>Peringkat 5 Jakarta Barat • 2023</p>
+        </div>
+
+        <div class="achievement">
+          <h3>International Komodo Math Competition</h3>
+          <p>Bronze Medal • 2023</p>
+        </div>
+
+        <div class="achievement">
+          <h3>Tunas Bangsa Cup ( Se-Jabodetabek )</h3>
+          <p>Juara 1 Matematika Individual • 2018</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- NON ACADEMIC -->
+
+    <section>
+
+      <h2>Prestasi Non-Akademik</h2>
+
+      <div class="card">
+
+        <ul>
+
+          <li>
+            Juara 3 Band Ciber Fest Sekolah Citra Berkat 2025
+            sebagai gitaris
+          </li>
+
+          <li>
+            Juara 2 Basket Pentas Olahraga SMPK Tunas Bangsa Sunter 2024
+          </li>
+
+          <li>
+            Juara 3 Kejuaraan Sepak Bola PERSITA 2020 U-11
+          </li>
+
+          <li>
+            Juara 1 Gymnastics Invitational Dispora DKI Jakarta 2017
+          </li>
+
+          <li>
+            Juara 2 Prime International Gymnastics Invitational Singapore 2017 Apparatus Ring
+          </li>
+          
+          <li>
+            Juara 2 Prime International Gymnastics Invitational Singapore 2017 Floor
+          </li>
+
+          <li>
+            Juara 3 Prime International Gymnastics Invitational Singapore 2017 Team
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 Morenzo Timothy Lawuren Butar Butar
+  </footer>
+
+</body>
+</html>
